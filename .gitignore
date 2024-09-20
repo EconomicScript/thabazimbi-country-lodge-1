@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore Angular cache files
+/angular/.cache/
+
+# Ignore node_modules folder
+/node_modules/
+
+**/.angular/cache/**
